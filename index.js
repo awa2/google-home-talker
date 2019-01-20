@@ -90,12 +90,10 @@ class GoogleHomeTalk {
                         Player.load(videoId);
                     });
                 });
-    
                 client.on('error', (error) => {
                     client.close();
                     reject(error);
                 });
-                
             } catch (error) {
                 reject(error);
             }
@@ -136,13 +134,11 @@ class GoogleHomeTalk {
                         });
                     });
                 });
-    
                 client.on('error', (error) => {
                     client.close();
                     // reject(error);
                     throw error;
                 });
-                
             } catch (error) {
                 reject(error);
             }
