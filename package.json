@@ -1,0 +1,17 @@
+{
+  "name": "google-home-talker",
+  "version": "0.0.1",
+  "description": "Play a sound or YouTube, or say a text on Google Home",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "google-tts-api": "0.0.4",
+    "mdns-js": "^1.0.3",
+    "youtube-castv2-client": "0.0.1"
+  }
+}
