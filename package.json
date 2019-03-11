@@ -1,6 +1,6 @@
 {
   "name": "google-home-talker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Play a sound or YouTube, or say a text on Google Home",
   "main": "index.js",
   "scripts": {
