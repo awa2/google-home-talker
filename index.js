@@ -165,4 +165,4 @@ class GoogleHomeTalk {
     }
 }
 
-module.exports = GoogleHomeTalkApp;
+module.exports = GoogleHomeTalk;
